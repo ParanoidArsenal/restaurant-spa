@@ -1,0 +1,184 @@
+*{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@media screen and (min-width: 769px) {
+.grid-container-jumbotron{
+    background-image: url(img/photo_background.png);
+    background-size:cover;
+    padding:80px 0px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 7fr 1fr;
+    grid-template-rows: 1fr;
+    align-items:center;
+    /*grid-gap: 16px;*/
+    grid-gap: 16px;
+}
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .grid-container-jumbotron{
+        background-image: url(img/photo_background.png);
+        background-size:cover;
+        padding:80px 8px;
+        display: grid;
+        grid-template-columns: 0fr 7fr 5fr 0fr;
+        grid-template-rows: 1fr;
+        align-items:center;
+        /*grid-gap: 16px;*/
+        grid-gap: 16px;
+}
+}
+
+@media screen and (max-width: 320px) {
+    .grid-container-jumbotron{
+        background-image: url(img/photo_background.png);
+        background-size:cover;
+        padding:80px 8px;
+        display: grid;
+        grid-template-columns: 0fr 12fr 0fr 0fr;
+        grid-template-rows: 1fr;
+        align-items:center;
+        /*grid-gap: 16px;*/
+        grid-gap: 16px;
+    }
+    }
+
+.grid-item-rstr-card{
+    background-color: white;
+    padding:38px 38px 46px;
+}
+
+
+.grid-item-rstr-card h1{
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    color: #1D1D1D;
+    padding-bottom:62px;
+    margin: 0px 0px;
+}
+
+.grid-item-rstr-card div{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+.jumb-f-span{
+font-size: 14px;
+line-height: 16px;
+display: flex;
+justify-self: flex-start;
+color: #626262;
+}
+
+.grid-item-rstr-card span{
+    display: inline-flex;
+}
+.dark-bb{
+    display: block;
+    color:white;
+    background-color: #262626;
+    border-radius: 16px;
+    padding:8px 16px;
+}
+
+.grid-container-nav{
+    grid-template-columns: 1fr 8fr 4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 16px;
+    overflow:hidden;
+    padding-top: 32px;
+    padding-bottom: 29px;
+}
+
+.grid-container-nav a{
+    color: #626262;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    display:inline-block;  
+}
+
+.grid-item-flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grid-container-main-pg2{
+    grid-template-columns: 1fr 12fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 80px;
+}
+
+.grid-container-main-sub{
+    grid-template-columns: 12fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0px 0px;
+}
+
+.grid-container-main-menu{
+    grid-template-columns: 4fr 4fr;
+    grid-template-rows: 1fr;
+    grid-gap: 49px 16px;  
+}
+
+.grid-container-main-sub h1{
+    font-size: 22px;
+    line-height: 34px;
+    display: flex;
+    align-self: flex-start;
+    color: #1D1D1D;
+}
+
+.grid-item-card-food{
+display: inline-flex;
+justify-content: space-between;
+border-width: 1px;
+border-style: solid;
+border-color: rgba(117, 117, 117, .2);
+}
+
+.grid-item-card-food img{
+    display:flex;
+    justify-self: flex-end;
+}
+
+.grid-item-card-food div{
+    display:flex;
+    flex-direction:column;
+    margin-top:16px;
+    margin-bottom:16px;
+    margin-left: 16px;
+}
+
+.grid-item-card-food span{
+    display:flex;
+}
+
+.food-name{
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+
+.food-ingrid{
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.food-price{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1D1D1D;
+    margin-top: auto;
+}
